@@ -17,7 +17,7 @@ function UseContext(){
   }
     useEffect(()=>{
     alert("Content button clicked.")
-  },[])
+  },[Content])
   const handleContent =()=>{
     showContent((prev)=>!prev)
   }
